@@ -1,0 +1,24 @@
+---
+title: Prise en compte des fichiers *Géoparquet* dans l’intégration vecteur + correction de bugs
+description: Prise en compte des fichiers *Géoparquet* dans l’intégration vecteur, correction de l’augmentation anormale du volume de stockage de certains datastores, correction de l’indisponibilité du Swagger altimétrie
+tags:
+    - Orchestrateur
+    - Vecteur
+    - Entrepôt
+    - Altimétrie
+eleventyNavigation:
+    key: Prise en compte des fichiers *Géoparquet* dans l’intégration vecteur + correction de bugs
+    order: -20260902
+date: 2026-09-02
+---
+
+## Changements
+
+**Prise en compte des fichiers `Géoparquet` dans l’[intégration vecteur](../../../../guides-developpeur/tutoriels/gestion-des-donnees-vecteur/alimentation-diffusion-vecteur/integration/)**
+
+Les fichiers `Géoparquet` peuvent maintenant être intégrés en base pour ensuite être utilisés dans les configurations [WFS](../../../../guides-developpeur/tutoriels/gestion-des-donnees-vecteur/alimentation-diffusion-vecteur/publication-wfs/) et [WMS Vecteur](../../../../guides-developpeur/tutoriels/gestion-des-donnees-vecteur/alimentation-diffusion-vecteur/publication-wms/).
+
+## Corrections de bugs
+
+- [Entrepôt] Correction d’un bug où la valeur du volume de stockage augmentait de manière anormale sur certain datastore
+- [Altimétrie] Correction d’un bug faisant qu’il n’était plus possible d’accéder au Swager de l’altimétrie. En même temps, l’URL de celui-ci est mainteant https://data.geopf.fr/altimetrie/api/index.html
