@@ -25,7 +25,7 @@ Elle s’appuie sur des ressources altimétriques pour fournir des altitudes. Ai
 
 L’API est interrogeable en méthodes GET et POST.
 
-Son swagger est accessible ici : [swagger du calcul altimétrique](https://data.geopf.fr/altimetrie/swagger-ui/index.html).
+Son swagger est accessible ici : [swagger du calcul altimétrique](https://data.geopf.fr/altimetrie/api/index.html).
 
 ---
 
