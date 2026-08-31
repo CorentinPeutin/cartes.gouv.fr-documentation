@@ -21,4 +21,4 @@ Les fichiers `Géoparquet` peuvent maintenant être intégrés en base pour ensu
 ## Corrections de bugs
 
 - [Entrepôt] Correction d’un bug où la valeur du volume de stockage augmentait de manière anormale sur certain datastore
-- [Altimétrie] Correction d’un bug faisant qu’il n’était plus possible d’accéder au Swager de l’altimétrie. En même temps, l’URL de celui-ci est mainteant https://data.geopf.fr/altimetrie/api/index.html
+- [Altimétrie] Correction d’un bug faisant qu’il n’était plus possible d’accéder au Swagger de l’altimétrie. Dans le même temps, l’URL de celui-ci est mainteant https://data.geopf.fr/altimetrie/api/index.html
